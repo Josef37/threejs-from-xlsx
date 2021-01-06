@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "serve": "http-server ./index.html"
+    "serve": "http-server ./dist",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,7 @@
   },
   "devDependencies": {
     "css-loader": "^5.0.1",
+    "gh-pages": "^3.1.0",
     "html-webpack-plugin": "^5.0.0-beta.4",
     "http-server": "^0.12.3",
     "style-loader": "^2.0.0",
