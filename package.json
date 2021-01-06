@@ -1,0 +1,22 @@
+{
+  "name": "threejs-from-xlsx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "serve": "http-server ./index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "simple-excel-to-json": "^2.2.1",
+    "three": "^0.124.0"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1"
+  }
+}
