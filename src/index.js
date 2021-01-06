@@ -1,5 +1,6 @@
 import * as THREE from "three";
 import data from "../data/data.json"
+import "./style.css"
 
 const canvas = document.querySelector('#canvas');
 const accelPanel = document.querySelector('#accelPanel');
