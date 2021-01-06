@@ -1,3 +1,7 @@
+### Live Demo
+
+https://josef37.github.io/threejs-from-xlsx/
+
 ### How to use
 
 1. `npm install`  
